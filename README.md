@@ -1,21 +1,21 @@
 # pam-passwd-test-app
 Program to test pam_chauthtok()
 
-Dependencies:
+# Dependencies:
 
-$ sudo apt-get install libpam-dev
+`$ sudo apt-get install libpam-dev`
 
-Building:
+# Building:
 
-$ make
+`$ make`
 
-Installing:
+# Installing:
 
-$ sudo cp clish /etc/pam.d/.
+`$ sudo cp clish /etc/pam.d/.`
 
-The edit /etc/pam.d/clish and replace [THE-PATH-TO-WHERE-THE-MODULE-IS-LOCATED]
-to the corresponding path on your machine. Then copy clish as follows:
+The edit `/etc/pam.d/clish` and replace `[THE-PATH-TO-WHERE-THE-MODULE-IS-LOCATED]`
+to the corresponding path on your machine. 
 
-Running:
+# Running:
 
-$ ./pwtst [username]
+`$ ./pwtst [username]`
