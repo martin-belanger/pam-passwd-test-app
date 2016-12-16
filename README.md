@@ -2,10 +2,13 @@
 Program to test pam_chauthtok()
 
 Dependencies:
-apt-get install libpam-dev
+$ sudo apt-get install libpam-dev
 
 Building:
-make
+$ make
+
+Installing:
+$ sudo cp clish /etc/pam.d/.
 
 Running:
-./pwtst [username]
+$ ./pwtst [username]
