@@ -12,13 +12,13 @@ Program to test pam_chauthtok()
 # Installing:
 
 `$ sudo cp clish /etc/pam.d/.`  
-`$ sudo chown [YOU]:[YOU] /etc/pam.d/clish`  `# where [YOU] is your username`
+`$ sudo chown [YOU]:[YOU] /etc/pam.d/clish`  # where `[YOU]` is your username
 
 Then edit `/etc/pam.d/clish` and replace `[THE-PATH-TO-WHERE-THE-MODULE-IS-LOCATED]`
-to the corresponding path on your machine. For example, if you clone and build
-the "dn-pam" repo in /tmp/dn-pam, then you would replace `[THE-PATH-TO-WHERE-THE-MODULE-IS-LOCATED]`
-by `/tmp/dn-pam/modules/pam_hash-only/.libs/`, which is where `pam_hash-only.so`
-is located.
+to the corresponding path on your machine. For example, if you cloned and built
+the "`dn-pam`" repo in `/tmp/dn-pam`, then you would replace `[THE-PATH-TO-WHERE-THE-MODULE-IS-LOCATED]`
+by `/tmp/dn-pam/modules/pam_hash-only/.libs/`, which is where the libraty 
+`pam_hash-only.so` is located.
 
 # Running:
 
