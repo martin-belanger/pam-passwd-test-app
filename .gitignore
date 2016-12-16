@@ -27,7 +27,11 @@
 *.i*86
 *.x86_64
 *.hex
+pwtst
 
 # Debug files
 *.dSYM/
 *.su
+
+# Dependency files
+*.d
