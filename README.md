@@ -11,8 +11,8 @@ Program to test pam_chauthtok()
 
 # Installing:
 
-`$ sudo cp clish /etc/pam.d/.`
-`$ sudo chown [YOU]:[YOU] /etc/pam.d/clish` # where YOU is your username
+`$ sudo cp clish /etc/pam.d/.`  
+`$ sudo chown [YOU]:[YOU] /etc/pam.d/clish`  `# where [YOU] is your username`
 
 Then edit `/etc/pam.d/clish` and replace `[THE-PATH-TO-WHERE-THE-MODULE-IS-LOCATED]`
 to the corresponding path on your machine. For example, if you clone and build
