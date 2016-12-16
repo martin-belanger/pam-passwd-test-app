@@ -15,6 +15,7 @@ CC      := gcc
 LDFLAGS := -lpam -lpam_misc
 LL      := gcc
 CFLAGS  := \
+ -DPROGRAM=\"$(PROGRAM)\" \
  -g \
  -O0 \
  -Wall
